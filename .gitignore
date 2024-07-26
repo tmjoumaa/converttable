@@ -1,0 +1,6 @@
+bin/
+inclue/
+lib/
+*.cfg
+in.txt
+*.json
