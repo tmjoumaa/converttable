@@ -27,12 +27,6 @@ def findfirstletter(s: str) -> int:
             return i
     return -1
 
-def findfirstwhitespace(s: str) -> int:
-    for i, c in enumerate(s):
-        if c.isspace():
-            return i
-    return -1
-
 def main():
     infile = None
     startnamedecode = False
